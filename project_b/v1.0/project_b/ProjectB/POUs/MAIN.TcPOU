@@ -4,10 +4,11 @@
     <Declaration><![CDATA[PROGRAM MAIN
 VAR
 	bProjectB : BOOL;
+	fbLogger : FB_LogHandler;
 END_VAR
 ]]></Declaration>
     <Implementation>
-      <ST><![CDATA[]]></ST>
+      <ST><![CDATA[fbLogger();]]></ST>
     </Implementation>
   </POU>
 </TcPlcObject>
