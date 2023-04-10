@@ -14,7 +14,7 @@
           },
           "project_b": {
               "name": "project_b",
-              "versioned": false,
+              "versioned": true,
               "path": "project_b",
               "project": "project_b.sln"
           }
