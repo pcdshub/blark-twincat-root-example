@@ -1,0 +1,23 @@
+{
+      "libraries": {
+          "LCLS_General": {
+              "name": "LCLS_General",
+              "versioned": true,
+              "path": "lcls-twincat-general",
+              "project": "LCLSGeneral.sln"
+          },
+          "project_a": {
+              "name": "project_a",
+              "versioned": false,
+              "path": "project_a",
+              "project": "project_a.sln"
+          },
+          "project_b": {
+              "name": "project_b",
+              "versioned": false,
+              "path": "project_b",
+              "project": "project_b.sln"
+          }
+      }
+  }
+
