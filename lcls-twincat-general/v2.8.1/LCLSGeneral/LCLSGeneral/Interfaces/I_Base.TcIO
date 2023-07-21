@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TcPlcObject Version="1.1.0.1" ProductVersion="3.1.4024.12">
+  <Itf Name="I_Base" Id="{3eac552b-7e84-4aca-873a-a7a84f3ed0ce}">
+    <Declaration><![CDATA[INTERFACE I_Base
+
+VAR
+	iTestBase : INT;
+END_VAR]]></Declaration>
+    <Method Name="BaseMethod" Id="{cced7c9d-74cc-4527-b71f-be8d3bddc536}">
+      <Declaration><![CDATA[METHOD BaseMethod : BOOL
+VAR_INPUT
+END_VAR
+]]></Declaration>
+    </Method>
+    <Property Name="BaseProperty" Id="{ccf75f34-02c7-4d35-9874-a870ceed6f25}">
+      <Declaration><![CDATA[PROPERTY BaseProperty : INT]]></Declaration>
+      <Get Name="Get" Id="{aad3a2a1-628f-4391-b661-e3a157e0995d}">
+        <Declaration><![CDATA[]]></Declaration>
+      </Get>
+      <Set Name="Set" Id="{2fe66e4e-3b6e-4024-98aa-4ec08f5e4b49}">
+        <Declaration><![CDATA[]]></Declaration>
+      </Set>
+    </Property>
+  </Itf>
+</TcPlcObject>

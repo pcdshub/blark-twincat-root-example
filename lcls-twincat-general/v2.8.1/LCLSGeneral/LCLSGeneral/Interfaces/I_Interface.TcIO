@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TcPlcObject Version="1.1.0.1" ProductVersion="3.1.4024.12">
+  <Itf Name="I_Interface" Id="{1460f7ae-7c15-4f06-8b14-32ad6bf287c0}">
+    <Declaration><![CDATA[INTERFACE I_Interface EXTENDS I_Base
+
+VAR
+	iVar1 : INT;
+END_VAR
+VAR_INPUT
+	iInputVar1 : INT;
+END_VAR
+VAR_OUTPUT
+	iOutputVar1 : INT;
+END_VAR
+VAR_EXTERNAL
+	iExternVar1 : INT;
+END_VAR
+]]></Declaration>
+    <Method Name="Method1" Id="{ac24b8dc-02d7-43f5-b135-b6c671453739}">
+      <Declaration><![CDATA[METHOD Method1 : BOOL
+VAR_INPUT
+END_VAR
+]]></Declaration>
+    </Method>
+    <Property Name="Property1" Id="{f8850952-1d5d-4f3a-8644-db1c10574025}">
+      <Declaration><![CDATA[PROPERTY Property1 : INT]]></Declaration>
+      <Get Name="Get" Id="{6463c585-8699-4a05-a87a-8e60f7f6d550}">
+        <Declaration><![CDATA[]]></Declaration>
+      </Get>
+      <Set Name="Set" Id="{b92e037d-587d-4b8b-8e20-ec38ff6cdaf0}">
+        <Declaration><![CDATA[]]></Declaration>
+      </Set>
+    </Property>
+  </Itf>
+</TcPlcObject>

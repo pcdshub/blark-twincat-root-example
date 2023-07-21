@@ -32,6 +32,7 @@
     <Folder Include="Data types" />
     <Folder Include="Data types\Misc" />
     <Folder Include="GVLs" />
+    <Folder Include="Interfaces" />
     <Folder Include="POUs" />
     <Folder Include="POUs\Logger" />
   </ItemGroup>
@@ -44,6 +45,12 @@
       <LinkAlways>true</LinkAlways>
     </Compile>
     <Compile Include="GVLs\Global_Variables_EtherCAT.TcGVL">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Interfaces\I_Interface.TcIO">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Interfaces\I_Base.TcIO">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="POUs\Logger\FB_LogHandler.TcPOU">
