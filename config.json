@@ -17,6 +17,18 @@
               "versioned": true,
               "path": "project_b",
               "project": "project_b.sln"
+          },
+          "project_c": {
+              "name": "project_c",
+              "versioned": false,
+              "path": "project_c",
+              "project": "project_c.sln"
+          },
+          "SampleLibraryA": {
+              "name": "SampleLibraryA",
+              "versioned": false,
+              "path": "SampleLibraryA",
+              "project": "SampleLibraryA.sln"
           }
       }
   }

@@ -15,5 +15,3 @@ _CompileInfo
 .pytmc_build
 TrialLicense.tclrs
 UpgradeLog.htm
-# For now, let's ignore the tmc file:
-*.tmc
